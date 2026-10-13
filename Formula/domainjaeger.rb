@@ -1,25 +1,25 @@
 class Domainjaeger < Formula
   desc "Hunts for available domain names made of real words: cook.ing, sn.app, mike.ai"
   homepage "https://github.com/onehorizonai/domainjaeger"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/onehorizonai/domainjaeger/releases/download/v0.1.0/domainjaeger-aarch64-apple-darwin.tar.xz"
-      sha256 "45c2747f71ae62212729e07bab29c688ab7890d3de8bcba95320c3980feb34f7"
+      url "https://github.com/onehorizonai/domainjaeger/releases/download/v0.2.0/domainjaeger-aarch64-apple-darwin.tar.xz"
+      sha256 "162d4a27b273508baca8f3788456291fd56f948230897e60c7d4c58898315b90"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/onehorizonai/domainjaeger/releases/download/v0.1.0/domainjaeger-x86_64-apple-darwin.tar.xz"
-      sha256 "15703286f6e343e18c523e4e98e31112b4fbd6c9dce07bc74ac337648b8f76e0"
+      url "https://github.com/onehorizonai/domainjaeger/releases/download/v0.2.0/domainjaeger-x86_64-apple-darwin.tar.xz"
+      sha256 "2ad4f1841b69d27b5f6aae178514a33dc1cd3bf7a977674efe82a2fe1473ba1c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/onehorizonai/domainjaeger/releases/download/v0.1.0/domainjaeger-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "801811313179af34a0c6ee706e8fde0b8462423570d7f29a07ff74afe4c0b906"
+      url "https://github.com/onehorizonai/domainjaeger/releases/download/v0.2.0/domainjaeger-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2aa017571e9fe09715eeedca80a07400b35d97c444c44c6d21057150204d5bb0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/onehorizonai/domainjaeger/releases/download/v0.1.0/domainjaeger-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4bdf2a5837c48749afa2d564da5333b7b41989e5a7efc641ff934bc42d52d4a2"
+      url "https://github.com/onehorizonai/domainjaeger/releases/download/v0.2.0/domainjaeger-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "eb83357c96e6c943d064c221431b09bc97d132c42097c74003ceed918d45459c"
     end
   end
   license "MIT"
